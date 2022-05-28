@@ -50,6 +50,7 @@ export function Shop() {
     bluehoodie,
     bluejoggers,
     shorts,
+    shortsblue,
     bluebag,
     greybag,
     beachbag,
@@ -77,6 +78,8 @@ export function Shop() {
         return shopItems.bluejoggers;
       case "Srt":
         return shopItems.shorts;
+      case "BSt":
+        return shopItems.shortsblue;
       case "BlB":
         return shopItems.bluebag;
       case "GrB":
@@ -361,7 +364,7 @@ export function Shop() {
             <Grid item xs={8} sm={4}>
               <img src={browntee.extraImages.mockup} alt={browntee.desc} className={styles.shopItemImage} onClick={() => setBagView(browntee)}></img>{" "}
             </Grid>
-            <Grid item xs={8} sm={4}>
+            <Grid item xs={8} sm={3}>
               <img
                 src={bluehoodie.extraImages.mockup}
                 alt={bluehoodie.desc}
@@ -369,7 +372,7 @@ export function Shop() {
                 onClick={() => setBagView(bluehoodie)}
               />
             </Grid>
-            <Grid item xs={8} sm={4}>
+            <Grid item xs={8} sm={3}>
               <img
                 src={bluejoggers.extraImages.mockup}
                 alt={bluejoggers.desc}
@@ -377,8 +380,11 @@ export function Shop() {
                 onClick={() => setBagView(bluejoggers)}
               ></img>
             </Grid>
-            <Grid item xs={8} sm={4}>
+            <Grid item xs={8} sm={3}>
               <img src={shorts.extraImages.mockup} alt={shorts.desc} className={styles.shopItemImage} onClick={() => setBagView(shorts)}></img>
+            </Grid>
+            <Grid item xs={8} sm={3}>
+              <img src={shortsblue.extraImages.mockup} alt={shortsblue.desc} className={styles.shopItemImage} onClick={() => setBagView(shortsblue)}></img>
             </Grid>
           </Grid>
           <Grid item xs={12}>

@@ -102,11 +102,22 @@ export const shopItems = {
     cost: 30,
     id: "Srt",
     hasSize: false,
-    desc: "shorts".toUpperCase(),
+    desc: "grey shorts".toUpperCase(),
     imageURL: "/Assets/Images/Shop/GREY SHORTS 1.png",
     extraImages: {
       back: "/Assets/Images/Shop/GREY SHORTS 2.png",
       mockup: '/Assets/Images/Shop/Mockups/GREY SHORTS.png'
+    },
+  },
+  shortsblue: {
+    cost: 30,
+    id: "BSt",
+    hasSize: false,
+    desc: "blue shorts".toUpperCase(),
+    imageURL: "/Assets/Images/Shop/BLUE SHORTS 1.png",
+    extraImages: {
+      back: "/Assets/Images/Shop/BLUE SHORTS 2.png",
+      mockup: '/Assets/Images/Shop/Mockups/BLUE SHORTS.png'
     },
   },
   bluebag: {
