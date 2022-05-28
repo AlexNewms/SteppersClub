@@ -101,7 +101,7 @@ export const shopItems = {
   shorts: {
     cost: 30,
     id: "Srt",
-    hasSize: false,
+    hasSize: true,
     desc: "grey shorts".toUpperCase(),
     imageURL: "/Assets/Images/Shop/GREY SHORTS 1.png",
     extraImages: {
@@ -112,7 +112,7 @@ export const shopItems = {
   shortsblue: {
     cost: 30,
     id: "BSt",
-    hasSize: false,
+    hasSize: true,
     desc: "blue shorts".toUpperCase(),
     imageURL: "/Assets/Images/Shop/BLUE SHORTS 1.png",
     extraImages: {
