@@ -54,12 +54,15 @@ export function Shop() {
     bluebag,
     greybag,
     beachbag,
+    whitetee
   } = shopItems;
 
   function getShopItemInfo(itemID) {
     switch (itemID) {
       case "GrT":
         return shopItems.greytee;
+      case "WhT":
+        return shopItems.whitetee;
       case "BlT":
         return shopItems.bluetee;
       case "BrT":
@@ -355,13 +358,16 @@ export function Shop() {
                 CLOTHES
               </h1>
             </Grid>
-            <Grid item xs={8} sm={4}>
+            <Grid item xs={8} sm={3}>
               <img src={greytee.extraImages.mockup} alt={greytee.desc} className={styles.shopItemImage} onClick={() => setBagView(greytee)}></img>{" "}
             </Grid>
-            <Grid item xs={8} sm={4}>
+            <Grid item xs={8} sm={3}>
+              <img src={whitetee.extraImages.mockup} alt={whitetee.desc} className={styles.shopItemImage} onClick={() => setBagView(whitetee)}></img>{" "}
+            </Grid>
+            <Grid item xs={8} sm={3}>
               <img src={bluetee.extraImages.mockup} alt={bluetee.desc} className={styles.shopItemImage} onClick={() => setBagView(bluetee)}></img>{" "}
             </Grid>
-            <Grid item xs={8} sm={4}>
+            <Grid item xs={8} sm={3}>
               <img src={browntee.extraImages.mockup} alt={browntee.desc} className={styles.shopItemImage} onClick={() => setBagView(browntee)}></img>{" "}
             </Grid>
             <Grid item xs={8} sm={3}>

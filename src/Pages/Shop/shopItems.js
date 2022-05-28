@@ -10,6 +10,17 @@ export const shopItems = {
       mockup: '/Assets/Images/Shop/Mockups/GREY SHORT.png'
     },
   },
+  whitetee: {
+    cost: 20,
+    id: "WhT",
+    hasSize: true,
+    desc: "Grey Tee".toUpperCase(),
+    imageURL: "/Assets/Images/Shop/WHITE TEE 1.png",
+    extraImages: {
+      back: "/Assets/Images/Shop/WHITE TEE 2.png",
+      mockup: '/Assets/Images/Shop/Mockups/WHITE SHORT.png'
+    },
+  },
   bluetee: {
     cost: 20.0,
     id: "BlT",
