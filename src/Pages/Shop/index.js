@@ -353,17 +353,17 @@ export function Shop() {
               </h1>
             </Grid>
             <Grid item xs={8} sm={4}>
-              <img src={greytee.imageURL} alt={greytee.desc} className={styles.shopItemImage} onClick={() => setBagView(greytee)}></img>{" "}
+              <img src={greytee.extraImages.mockup} alt={greytee.desc} className={styles.shopItemImage} onClick={() => setBagView(greytee)}></img>{" "}
             </Grid>
             <Grid item xs={8} sm={4}>
-              <img src={bluetee.imageURL} alt={bluetee.desc} className={styles.shopItemImage} onClick={() => setBagView(bluetee)}></img>{" "}
+              <img src={bluetee.extraImages.mockup} alt={bluetee.desc} className={styles.shopItemImage} onClick={() => setBagView(bluetee)}></img>{" "}
             </Grid>
             <Grid item xs={8} sm={4}>
-              <img src={browntee.imageURL} alt={browntee.desc} className={styles.shopItemImage} onClick={() => setBagView(browntee)}></img>{" "}
+              <img src={browntee.extraImages.mockup} alt={browntee.desc} className={styles.shopItemImage} onClick={() => setBagView(browntee)}></img>{" "}
             </Grid>
             <Grid item xs={8} sm={4}>
               <img
-                src={bluehoodie.imageURL}
+                src={bluehoodie.extraImages.mockup}
                 alt={bluehoodie.desc}
                 className={styles.shopItemImage}
                 onClick={() => setBagView(bluehoodie)}
@@ -371,14 +371,14 @@ export function Shop() {
             </Grid>
             <Grid item xs={8} sm={4}>
               <img
-                src={bluejoggers.imageURL}
+                src={bluejoggers.extraImages.mockup}
                 alt={bluejoggers.desc}
                 className={styles.shopItemImage}
                 onClick={() => setBagView(bluejoggers)}
               ></img>
             </Grid>
             <Grid item xs={8} sm={4}>
-              <img src={shorts.imageURL} alt={shorts.desc} className={styles.shopItemImage} onClick={() => setBagView(shorts)}></img>
+              <img src={shorts.extraImages.mockup} alt={shorts.desc} className={styles.shopItemImage} onClick={() => setBagView(shorts)}></img>
             </Grid>
           </Grid>
           <Grid item xs={12}>
@@ -401,14 +401,14 @@ export function Shop() {
               </h1>
             </Grid>
             <Grid item xs={8} sm={3}>
-              <img src={bluehat.imageURL} alt={bluehat.desc} className={styles.shopItemImage} onClick={() => setBagView(bluehat)}></img>{" "}
+              <img src={bluehat.extraImages.mockup} alt={bluehat.desc} className={styles.shopItemImage} onClick={() => setBagView(bluehat)}></img>{" "}
             </Grid>
             <Grid item xs={8} sm={3}>
-              <img src={brownhat.imageURL} alt={brownhat.desc} className={styles.shopItemImage} onClick={() => setBagView(brownhat)}></img>{" "}
+              <img src={brownhat.extraImages.mockup} alt={brownhat.desc} className={styles.shopItemImage} onClick={() => setBagView(brownhat)}></img>{" "}
             </Grid>
             <Grid item xs={8} sm={3}>
               <img
-                src={bluebuckethat.imageURL}
+                src={bluebuckethat.extraImages.mockup}
                 alt={bluebuckethat.desc}
                 className={styles.shopItemImage}
                 onClick={() => setBagView(bluebuckethat)}
@@ -416,7 +416,7 @@ export function Shop() {
             </Grid>
             <Grid item xs={8} sm={3}>
               <img
-                src={greybuckethat.imageURL}
+                src={greybuckethat.extraImages.mockup}
                 alt={greybuckethat.desc}
                 className={styles.shopItemImage}
                 onClick={() => setBagView(greybuckethat)}
@@ -443,13 +443,13 @@ export function Shop() {
               </h1>
             </Grid>
             <Grid item xs={8} sm={4}>
-              <img src={bluebag.imageURL} alt={bluebag.desc} className={styles.shopItemImage} onClick={() => setBagView(bluebag)}></img>{" "}
+              <img src={bluebag.extraImages.mockup} alt={bluebag.desc} className={styles.shopItemImage} onClick={() => setBagView(bluebag)}></img>{" "}
             </Grid>
             <Grid item xs={8} sm={4}>
-              <img src={greybag.imageURL} alt={greybag.desc} className={styles.shopItemImage} onClick={() => setBagView(greybag)}></img>{" "}
+              <img src={greybag.extraImages.mockup} alt={greybag.desc} className={styles.shopItemImage} onClick={() => setBagView(greybag)}></img>{" "}
             </Grid>
             <Grid item xs={8} sm={4}>
-              <img src={beachbag.imageURL} alt={beachbag.desc} className={styles.shopItemImage} onClick={() => setBagView(beachbag)}></img>{" "}
+              <img src={beachbag.extraImages.mockup} alt={beachbag.desc} className={styles.shopItemImage} onClick={() => setBagView(beachbag)}></img>{" "}
             </Grid>
           </Grid>
           <Grid item xs={12}>

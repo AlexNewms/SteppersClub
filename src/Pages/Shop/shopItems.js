@@ -7,6 +7,7 @@ export const shopItems = {
     imageURL: "/Assets/Images/Shop/GREY TEE 1.png",
     extraImages: {
       back: "/Assets/Images/Shop/GREY TEE 2.png",
+      mockup: '/Assets/Images/Shop/Mockups/GREY SHORT.png'
     },
   },
   bluetee: {
@@ -17,6 +18,7 @@ export const shopItems = {
     imageURL: "/Assets/Images/Shop/BLUE TEE 1.png",
     extraImages: {
       back: "/Assets/Images/Shop/BLUE TEE 2.png",
+      mockup: '/Assets/Images/Shop/Mockups/BLUE TEE.png'
     },
   },
   browntee: {
@@ -27,6 +29,7 @@ export const shopItems = {
     imageURL: "/Assets/Images/Shop/BROWN TEE 1.png",
     extraImages: {
       back: "/Assets/Images/Shop/BROWN TEE 2.png",
+      mockup: '/Assets/Images/Shop/Mockups/BROWN TEE.png'
     },
   },
   bluehat: {
@@ -37,6 +40,7 @@ export const shopItems = {
     imageURL: "/Assets/Images/Shop/BLUE CAP 1.png",
     extraImages: {
       back: "/Assets/Images/Shop/BLUE CAP 2.png",
+      mockup: '/Assets/Images/Shop/Mockups/BLUE CAP.png'
     },
   },
   brownhat: {
@@ -47,6 +51,7 @@ export const shopItems = {
     imageURL: "/Assets/Images/Shop/BROWN HAT 1.png",
     extraImages: {
       back: "/Assets/Images/Shop/BROWN HAT 2.png",
+      mockup: '/Assets/Images/Shop/Mockups/BROWN CAP.png'
     },
   },
   greybuckethat: {
@@ -57,6 +62,7 @@ export const shopItems = {
     imageURL: "/Assets/Images/Shop/GREY BUCKET.png",
     extraImages: {
       back: "/Assets/Images/Shop/Mockups/GREY BUCKET.png",
+      mockup: '/Assets/Images/Shop/Mockups/GREY BUCKET.png'
     },
   },
   bluebuckethat: {
@@ -67,6 +73,7 @@ export const shopItems = {
     imageURL: "/Assets/Images/Shop/BLUE BUCKET.png",
     extraImages: {
       back: "/Assets/Images/Shop/Mockups/BLUE BUCKET.png",
+      mockup: '/Assets/Images/Shop/Mockups/BLUE BUCKET.png'
     },
   },
   bluehoodie: {
@@ -77,6 +84,7 @@ export const shopItems = {
     imageURL: "/Assets/Images/Shop/HOODIE.png",
     extraImages: {
       back: "/Assets/Images/Shop/Mockups/HOODIE.png",
+      mockup: '/Assets/Images/Shop/Mockups/HOODIE.png'
     },
   },
   bluejoggers: {
@@ -87,6 +95,7 @@ export const shopItems = {
     imageURL: "/Assets/Images/Shop/JOGGERS.png",
     extraImages: {
       back: "/Assets/Images/Shop/Mockups/JOGGERS.png",
+      mockup: '/Assets/Images/Shop/Mockups/JOGGERS.png'
     },
   },
   shorts: {
@@ -97,6 +106,7 @@ export const shopItems = {
     imageURL: "/Assets/Images/Shop/GREY SHORTS 1.png",
     extraImages: {
       back: "/Assets/Images/Shop/GREY SHORTS 2.png",
+      mockup: '/Assets/Images/Shop/Mockups/GREY SHORTS.png'
     },
   },
   bluebag: {
@@ -107,6 +117,7 @@ export const shopItems = {
     imageURL: "/Assets/Images/Shop/BLUE BAG.png",
     extraImages: {
       back: "/Assets/Images/Shop/Mockups/BLUE BAG.png",
+      mockup: '/Assets/Images/Shop/Mockups/BLUE BAG.png'
     },
   },
   greybag: {
@@ -117,6 +128,7 @@ export const shopItems = {
     imageURL: "/Assets/Images/Shop/GREY BAG.png",
     extraImages: {
       back: "/Assets/Images/Shop/Mockups/GREY BAG.png",
+      mockup: '/Assets/Images/Shop/Mockups/GREY BAG.png'
     },
   },
   beachbag: {
@@ -127,6 +139,7 @@ export const shopItems = {
     imageURL: "/Assets/Images/Shop/BEACH BAG.png",
     extraImages: {
       back: "/Assets/Images/Shop/Mockups/BEACH BAG.png",
+      mockup: '/Assets/Images/Shop/Mockups/BEACH BAG.png'
     },
   },
 };
