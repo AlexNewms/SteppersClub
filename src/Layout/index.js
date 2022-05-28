@@ -78,7 +78,7 @@ export const Layout = (props) => {
   const styles = useStyles();
   return (
     <Grid container className={styles.gridContentWrapper}>
-      <Grid item xs={12} sm={10} md={8} lg={6} className={styles.gridMiniContentWrapper}>
+      <Grid item xs={12} sm={10} md={8} lg={8} xl={6} className={styles.gridMiniContentWrapper}>
         <LogoMain />
         {props.children}
       </Grid>
