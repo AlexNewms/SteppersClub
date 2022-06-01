@@ -14,7 +14,7 @@ export const shopItems = {
     cost: 20,
     id: "WhT",
     hasSize: true,
-    desc: "Grey Tee".toUpperCase(),
+    desc: "White Tee".toUpperCase(),
     imageURL: "/Assets/Images/Shop/WHITE TEE 1.png",
     extraImages: {
       back: "/Assets/Images/Shop/WHITE TEE 2.png",
